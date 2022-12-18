@@ -28,6 +28,7 @@ public class Car extends Vehicle {
         this.gears = 6;
         this.type = "sports";
         this.seats = 5;
+        this.currentGear = 1;
     }
 
     public int getWheels() {
